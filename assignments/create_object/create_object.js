@@ -1,5 +1,7 @@
 function CreateObject(arr) {
-    // Write your code here
+    this.firstName=arr["firstName"];
+    this.lastName=arr["lastName"];
 }
+let newobject = new CreateObject(arr);
 
 module.exports = CreateObject;
