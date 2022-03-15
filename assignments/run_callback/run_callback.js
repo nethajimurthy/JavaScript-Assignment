@@ -1,6 +1,6 @@
 function RunCallback(a, b, cb) {
-    return cb(a+b)
+    return cb(a,b)
 }
-let cb=(num)=>num;
+let cb=(a,b)=>a+b;
 
 module.exports = RunCallback;
