@@ -4,8 +4,11 @@
     </head>
     <body>
         <div>
-            <input type='text' name='todo_input' id="input_box">
-            <button type='submit' id="subbutton">Add Todo</button>
+            <select name="status" id="status">
+                <option value='true' id="confirmed">Confirmed</option>
+                <option value='false' id="failed">Failed</option>
+                </select>
+            <button type='submit' id="subbutton">Search</button>
             <div class='todos'>
     </div>
         </div>
